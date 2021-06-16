@@ -1,4 +1,8 @@
-
+/*Main fonksiyonunda sabit olarak verilmiþ olan buffer, dönüþ tipi char* olan ve char* tipinde parametre alan Func() isimli fonksiyona parametre olarak gönderilecek. 
+- Gönderilen Bufferýn Func() isimli fonksiyonda iþlenmesi bekleniyor. 
+- Func() isimli fonksiyon gönderilen bufferýn karakterlerini teker teker tarayacak, bufferýn en baþýndan analiz etmeye baþlayan fonksiyon þu iþlemi yapacak ; 
+- Gönderilen bufferýn ilk karakterinden baþlayarak tarayacak, ? Eðer karakter bulunduðu konumdan itibaren tekrar etmemiþ ise o karakter silinerek yerine ‘-’ karakteri yazýlacak. 
+- Eðer karakter daha sonrasýnda tekrar etmiþ ise o karakter aynen býrakýlacak.*/
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
